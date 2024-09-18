@@ -60,10 +60,10 @@ Future<void> main() async {
   } else if(GetPlatform.isAndroid) {
     await Firebase.initializeApp(
       options: const FirebaseOptions(
-        apiKey: "AIzaSyCic6Mw3RRPFcimXhwGidwhCN0tXY7HFFc",
-        appId: "1:1000163153346:android:9d8caf29b912e11606b25b",
-        messagingSenderId: "1000163153346",
-        projectId: "ammart-8885e",
+        apiKey: "AIzaSyDZbyQXNOkQZSAsEAZwtwLOMc3sdZ0wwes",
+        appId: "1:397654019429:android:9e804d3e6ef0cdd0a3e58c",
+        messagingSenderId: "397654019429",
+        projectId: "garak-80b3e",
       ),
     );
   } else {
